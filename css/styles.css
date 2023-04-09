@@ -53,6 +53,8 @@ img {
 }
 
 .header-logo {
+  display: inline-block;
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -263,6 +265,9 @@ img {
 .footer {
   padding: 100px 0;
   background-color: var(--section-bcl);
+}
+.footer-p {
+  max-width: 264px;
 }
 
 .header-logo-span-two {
