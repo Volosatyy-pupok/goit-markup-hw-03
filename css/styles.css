@@ -281,9 +281,6 @@ img {
   padding: 96px 0 120px;
 }
 
-.portfolio-div-btn {
-  display: flex;
-}
 .portfolio-btn {
   display: flex;
   justify-content: center; 
