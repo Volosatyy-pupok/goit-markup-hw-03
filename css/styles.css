@@ -281,12 +281,13 @@ img {
   padding: 96px 0 120px;
 }
 
-.portfolio-div-btn {
+.portfolio-btn {
   display: flex;
   justify-content: center; 
   gap: 24px;
   margin-bottom: 72px;
 }
+
 .p-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
