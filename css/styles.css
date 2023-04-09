@@ -209,7 +209,7 @@ img {
   gap: 24px;
 }
 
-.section-three-info {
+.section-three-img-info {
   width: calc((100% - 3 * 16px) / 3);
 }
 
