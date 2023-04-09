@@ -319,7 +319,7 @@ img {
 }
 
 .portfolio-list-info {
-  width: ((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-container-list {
