@@ -221,7 +221,7 @@ img {
   padding: 120px 0;
 }
 
-.team {
+.team-title {
   margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
@@ -324,7 +324,7 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none; 
   margin-bottom: 8px;
-  
+
 }
 .row-title {
   font-family: "Roboto", sans-serif;
