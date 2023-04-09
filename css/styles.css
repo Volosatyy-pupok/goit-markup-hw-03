@@ -322,6 +322,7 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+  width: calc((100% - 48px) / 3);
 }
 .row-title {
   font-family: "Roboto", sans-serif;
