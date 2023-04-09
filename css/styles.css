@@ -89,7 +89,7 @@ img {
   display: flex;
   gap: 40px;
 }
-.nav-info {
+.nav-link {
   padding: 24px 0;
 }
 .nav:hover {
