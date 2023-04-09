@@ -29,8 +29,9 @@
   <body>
     <!-- page header -->
 
-    <header>
-      <nav>
+    <header class="header">
+      <div class="header-container container">
+      <nav class="nav">
         <!-- page logo -->
 
         <a class="header-logo link" href="./index.html"
@@ -38,7 +39,7 @@
         >
 
         <!-- navigation -->
-        <ul class="list">
+        <ul class="nav-list list">
           <li class="nav-info">
             <a class="nav link" href="./index.html">Studio</a>
           </li>
@@ -50,7 +51,7 @@
       </nav>
 
       <address class="address">
-        <ul class="list">
+        <ul class="address-list list">
           <li>
             <a class="contacts link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -63,18 +64,22 @@
           </li>
         </ul>
       </address>
+    </div>
     </header>
     <!-- Section 1 -->
     <main>
       <section class="main">
+        <div class="main-info container">
         <h1 class="main-title">Effective Solutions for Your Business</h1>
         <button class="main-title-btn" type="button">Order Service</button>
+      </div>
       </section>
       <!-- Section 2 -->
 
-      <section>
+      <section  class="feature">
+        <div class="feature-div container">
         <h2 class="visually-hidden">features</h2>
-        <ul class="list">
+        <ul class="feature-list list">
           <li class="feature-pgrh">
             <h3 class="features-title">Strategy</h3>
             <p class="feature-p">
@@ -107,23 +112,26 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
 
       <!-- Section 3 -->
 
-      <section>
+      <section class="section-three">
+        <div class="section-three-div container">
         <h2 class="section-three-title">What are we doing</h2>
-        <ul class="list">
-          <li>
+        <ul class="section-three-img list">
+          <li class="wawd">
             <img src="./images/image1.jpg" alt="image1.jpg" width="360" />
           </li>
-          <li>
+          <li class="wawd">
             <img src="./images/image2.jpg" alt="image2.jpg" width="360" />
           </li>
-          <li>
+          <li class="wawd">
             <img src="./images/image3.jpg" alt="image3.jpg" width="360" />
           </li>
         </ul>
+      </div>
       </section>
 
       <!-- Section 4-->
@@ -160,7 +168,7 @@
 
     <!-- Footer -->
 
-    <footer class="footer">
+    <footer class="footer container">
       <a class="header-logo link" href="./index.html"
         >Web<span class="header-logo-span-two">Studio</span></a
       >
