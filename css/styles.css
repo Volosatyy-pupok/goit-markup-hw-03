@@ -215,9 +215,11 @@ img {
 
 .section-four {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -226,11 +228,24 @@ img {
   color: var(--title-cl);
 }
 
+.teammates-list {
+  display: flex;
+  gap: 24px; 
+}
+
 .teammate {
+  width: calc((100% - 72px) / 4); 
   background-color: #ffffff;
 }
 
+.teammates {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
+}
+
 .teammate-name {
+  text-align: center;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -239,12 +254,14 @@ img {
 }
 
 .teammate-info {
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .footer {
+  padding: 100px 0;
   background-color: var(--section-bcl);
 }
 
