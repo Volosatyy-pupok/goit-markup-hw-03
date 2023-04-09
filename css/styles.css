@@ -12,6 +12,7 @@
   --p-row-title-cl: #2e2f42;
   --p-row-title-p-cl: #434455;
   --btn-main-bcl: #4d5ae5;
+  --cl-btn-portfolio: #e7e9fc;
 }
 .visually-hidden {
   position: absolute;
@@ -276,6 +277,16 @@ img {
 
 /* Portfolio */
 
+.section-portfolio {
+  padding: 96px 0 120px;
+}
+
+.portfolio-div-btn {
+  display: flex;
+  justify-content: center; 
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .p-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -284,10 +295,14 @@ img {
   letter-spacing: 0.04em;
   color: var(--p-btn-cl);
   background-color: var(--p-btn-bcl);
+  padding: 12px 24px;
+  border: 1px solid var(--cl-btn-portfolio);
+  border-radius: 4px;
 }
 
 .p-btn:hover,
 .p-btn:focus {
+  border: 1px solid transparent;
   color: #ffffff;
   background-color: #404bbf;
   cursor: pointer;
