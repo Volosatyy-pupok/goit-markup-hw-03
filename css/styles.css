@@ -69,7 +69,7 @@ img {
 
 .header-logo {
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -303,6 +303,19 @@ img {
 .footer-p {
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.header-logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-cl);
+  margin-right: 76px;
 }
 
 .header-logo-span-two {
